@@ -1,0 +1,26 @@
+indicator:
+  name: 'A Closer Look: Glaciers in Glacier National Park'
+  slug: glaciers-in-glacier-park
+  publisher: U.S. Environmental Protection Agency
+  source_page: https://19january2025snapshot.epa.gov/climate-indicators/closer-look-glaciers-glacier-national-park/index.html
+  technical_documentation: https://19january2025snapshot.epa.gov/sites/default/files/2021-03/documents/glaciernp_td.pdf
+  rights: Public domain, work of the U.S. Government (17 U.S.C. 105)
+datasets:
+- file: glacier_park_total_area.csv
+  figure: Figure 1
+  figure_title: Figure 1. Total Glacier Area in Glacier National Park, 1966–2015
+  source_file: glacier-park_fig-1.csv
+  source_sha256: f99a909115431a915240d3b0cec1d01c5feaaadc1c6f6dcf435dc0bbd486aef0
+  source_encoding: windows-1252
+  data_source: Fagre et al., 2017; USGS, 2017.
+  web_update: April 2021
+  unit: square miles
+  rows: 4
+  columns:
+  - name: year
+    type: integer
+    description: 'Year of the aerial survey: 1966, 1998, 2005, or 2015.'
+  - name: value
+    type: number
+    description: Total surface area of the 37 named glaciers in Glacier National Park,
+      in square miles.
